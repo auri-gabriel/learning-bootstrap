@@ -20,7 +20,7 @@ $max-spacer: 20;
   $custom-spacers: map-merge(
     $custom-spacers,
     (
-      $i: $spacer * ($i * 0.5)
+      $i: $spacer * (3 + ($i - 5) * 0.5)
     )
   );
 }
