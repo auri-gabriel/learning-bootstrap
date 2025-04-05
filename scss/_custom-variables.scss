@@ -1,5 +1,5 @@
 // === BASE COLORS ===
-$primary: #ff3c38; // Strong red for emphasis
+$primary: #F45746; // Strong red for emphasis
 $secondary: #2e2e2e; // Dark neutral gray
 $success: #27ae60;
 $info: #3498db;
@@ -24,7 +24,7 @@ $body-bg: #eaeaea;
 $body-color: #111111;
 
 // === TYPOGRAPHY ===
-$font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-sans-serif: 'Inter', Helvetica, Arial, sans-serif;
 $font-size-base: 0.95rem;
 $line-height-base: 1.5;
 $font-weight-base: 400;
@@ -32,7 +32,9 @@ $headings-font-weight: 700;
 $headings-color: $dark;
 
 // === EDGES ===
-$border-radius: 0; // Sharp corners everywhere
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
 $btn-border-radius: 0;
 $input-border-radius: 0;
 $form-check-input-border-radius: 0;
