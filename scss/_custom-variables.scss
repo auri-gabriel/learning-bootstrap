@@ -68,20 +68,6 @@ $link-decoration: underline;
 
 // === CARDS ===
 $card-border-radius: 0;
-$card-border-color: $gray-300;
-$card-bg: #ffffff;
 $card-box-shadow: none;
 
-// === TABLES ===
-$table-border-color: $gray-400;
-$table-striped-bg: $gray-100;
-
-// === CONTAINER SIZES ===
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1200px,
-  xxl: 1320px
-);
-
+$enable-dark-mode: true;
